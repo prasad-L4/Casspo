@@ -1701,7 +1701,7 @@ nav li ul a:before , nav li ul a:after {
 .fw-search-wrap {
 	position: relative;
 	padding: 30px;
-	background: #272535;
+	background: var(--main-color);
 	border-radius: 10px;
 	z-index: 12;
 	margin-bottom: 50px;
@@ -1898,6 +1898,7 @@ quantity , .quantity_title {
 }
 .daterangepicker td.active, .daterangepicker td.active:hover , .daterangepicker .drp-buttons .btn.btn-primary , .searchform-submit  {
 	background: var(--main-color);
+	color: white;
 }
 .daterangepicker .calendar-table table , .daterangepicker .drp-buttons .btn.btn-primary {
   	font-family: var(--secondary-font);
@@ -1988,13 +1989,13 @@ quantity , .quantity_title {
 	right:0;
 	left:0;
 	bottom:0;
-	background: #272535;
+	background: #124106;
 	z-index:2;
 	opacity:0;
   	transition: all .2s cubic-bezier(.19,1,.22,1) 0ms;
 }
 .grid-item-holder:hover:before , .post-item_media a:hover:before {
-	opacity:.7;
+	opacity:.3;
 }
 .gallery-item-second,
 .grid-sizer-second {
@@ -2016,9 +2017,11 @@ quantity , .quantity_title {
 	float: left;
 	position: relative;
 	z-index: 1;
+height: 20rem;
 	background: #272535;
     transform: translateZ(0);
     transition: all .3s ease-in-out;
+	object-fit: cover;
 }
 .gallery-item:hover img , .post-item_media a:hover img {
 	transform: scale(1.15);
@@ -2409,10 +2412,10 @@ quantity , .quantity_title {
     margin-top: -25px;
     border-radius: 50%;
     transition: all .3s ease;
-	background: #272535;
+	background: var(--main-color);
     z-index: 50;
     cursor: pointer;
-    color: var(--main-color);
+    color: white;
 	box-shadow: 0px 0px 0px 6px rgba(255,255,255, .4);
 }
 .slider-button:before {
@@ -3222,16 +3225,16 @@ quantity , .quantity_title {
     -webkit-appearance: none;
     border-radius: 4px;
     position: relative;
-	color:  var(--main-color);
+	color:  white;
     text-transform: uppercase;
-    background:#272535;
+    background:rgb(14, 123, 14);
 	font-weight: 500;
     font-family: var(--secondary-font);
 	transition: all .2s linear;
 }
 .commentssubmit:hover {
     background: var(--main-color);
-	color: #272535;
+	color: white;
 }
 .contacts-cards-wrap {
 	margin-bottom: 30px;
@@ -4461,7 +4464,7 @@ quantity , .quantity_title {
 	z-index: 20;
 	overflow: hidden;
 	border-radius: 20px;
-	margin : 50px 0;	margin-top: ;
+	margin : 50px 0;	
 }
 .boxed-container-title_item {
 	position: relative;
